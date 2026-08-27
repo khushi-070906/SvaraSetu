@@ -1,0 +1,18 @@
+# SwarSetu — Indian Multilingual Neural Voice-over-Low-Bitrate Pipeline
+# Core STT (speech-to-text) — small, fast, multilingual (supports hi, bn, ta, te, mr, gu, etc.)
+faster-whisper==1.0.3
+
+# Lightweight multilingual translation / text normalization (small NLLB-family model)
+transformers>=4.41.0
+sentencepiece>=0.2.0
+torch>=2.2.0
+
+# TTS (text-to-speech) — multilingual, works well for Indian languages
+TTS==0.22.0          # Coqui TTS (XTTS-v2 / VITS backends support Indic languages)
+
+# Audio I/O
+soundfile>=0.12.1
+numpy>=1.26.0
+
+# Utilities
+tqdm
